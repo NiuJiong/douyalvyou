@@ -1,6 +1,6 @@
 /*<!--	banner	-->*/
 header{
-	background: none;
+	
 }
 .banner{
 	
@@ -37,28 +37,18 @@ body>div{
 }
 
 
-.logo{
-	height: 7.2rem;
-	line-height: 7.2rem;
-	text-align: center;
-	font-size: 0;
-}
-.logo img{
-	display: inline-block;
-	width: 4.08rem;
-	margin: auto;
-	vertical-align: middle;
-}
+
 
 /*表单*/
 form{
 	font-size: 0;
 	margin: 0 1.488rem;
+	margin-top: 3rem;
 }
-form div{
+form>div{
 	border-bottom: 1px solid #7B735E;
 	padding: 0.2rem 0;
-	margin-top: 1rem;
+	margin-top: 1.8rem;
 }
 form div span{
 	display: inline-block;
@@ -93,7 +83,39 @@ form div input::-webkit-input-placeholder{
 	font-family: pingfangcenter;
 	color: #9A9484;
 }
-form div:nth-child(3){
+
+form .yanzhengma{
+	border: none;
+	text-align: center;
+}
+form .yanzhengma input{
+	border: 1px solid #95938F;
+	width: 5rem;
+	padding: 0.5rem 0;
+	border-radius:6px;
+	margin-left: 0.3rem;
+	text-align: center;
+	letter-spacing: 0.3rem;
+}
+form .yanzhengma .ht{
+	width: 4rem;
+	font-family: yanzhengma;
+	font-size: 1rem;
+	color: white;
+	border: 1px solid #95938F;
+	border-radius:6px;
+	padding: 0.2rem 0 0.3rem 0;
+	letter-spacing: 0.3rem;
+	text-align: center;
+}
+form .yanzhengma div{
+	display: inline-block;
+	border: none;
+	width: 1.344rem;
+	vertical-align: middle;
+}
+
+form div:nth-child(6){
 	border: 1px solid #9D9B9B;
 	font-size: 0.816rem;
 	color: #CBC5BB;
@@ -102,50 +124,6 @@ form div:nth-child(3){
 	border-radius:30px;
 	margin-top: 1.5rem;
 	padding: 0.3rem 0;
-	letter-spacing: 1rem;
-	text-indent: 1rem;
-}
-form div:nth-child(4){
-	border: none;
-	margin-top: 0.3rem;
-}
-form div:nth-child(4) a:nth-child(1){
-	float: left;
-	font-size: 0.624rem;
-	color: #FDFDFD;
-	font-family: pingfangcenter;
-	margin-left: 0.5rem;
-}
-form div:nth-child(4) a:nth-child(2){
-	float: right;
-	font-size: 0.624rem;
-	color: #FDFDFD;
-	margin-right: 0.5rem;
-	font-family: pingfangcenter;
-}
-form>p{
-	font-size: 0.624rem;
-	color: #FDFDFD;
-	text-align: center;
-	font-family: pingfangcenter;
-	margin-top: 2rem;
-}
-form div:last-child{
-	border: none;
-	text-align: center;
-}
-form div:last-child a{
-	display: inline-block;
-	width: 1.5rem;
-	height: 1.296rem;
-}
-form div:last-child a:nth-child(1){
-	background: url(../image/qqweixin.png) no-repeat 0 center;
-	background-size:auto 1.3rem;
-	margin-right: 1rem;
-}
-form div:last-child a:nth-child(2){
-	width: 1.6rem;
-	background: url(../image/qqweixin.png) no-repeat -53px center;
-	background-size:auto 1.236rem;
+	letter-spacing: 0.3rem;
+	text-indent:0.5rem;
 }
