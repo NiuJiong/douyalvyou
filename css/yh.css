@@ -180,7 +180,7 @@
 	font-size: 0.5rem;
 	padding: 0.3rem 0;
 	text-align: center;
-	background: rgba(0,0,0,1);
+	background: rgba(0,0,0,0.5);
 }
 .tehui ul li>div:nth-child(2){
 	float: left;
@@ -296,7 +296,7 @@
 	right: 0;
 	bottom: 0;
 	text-align: center;
-	background: rgba(0,0,0,1);
+	background: rgba(0,0,0,0.4);
 	border-radius:5px;
 	font-family: pingfangcenter;
 	padding: 0rem 0.5rem;

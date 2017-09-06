@@ -1,20 +1,21 @@
 $(function(){
 	
-	var liwidth = $(".content div:eq(0) ul li").width();
-	var lilength = $(".content div:eq(0) ul li").length;
-	var limargin = parseInt($(".content div:eq(0) ul li").css("marginLeft"))*2;
 	
-	var ulwidth = (liwidth+limargin) * lilength;
-	
-	$($(".content div:eq(0) ul").width(ulwidth));
-	
-	$(".content div:eq(0) ul li").click(function(){
-		$(".content div:eq(0) ul li").removeClass("active");
-		$(this).addClass("active");
+	var mySwiper = new Swiper('#swiper-container1', {
+				slidesPerView : 4,
+				watchSlidesProgress : true,
+				watchSlidesVisibility : true,
 	});
 	
 	
+	$("#swiper-container1 .swiper-slide").click(function(){
+		$("#swiper-container1 .swiper-slide").removeClass("active");
+		$(this).addClass("active");
+	});
 	
+//	setInterval(function(){
+//		console.log($("#swiper-container1").css("marginLeft"));
+//	},300);
 	
 	
 });

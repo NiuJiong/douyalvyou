@@ -1,32 +1,81 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0" />
-		
+
 		<title></title>
-	</head>
-	
-	<script src="js/width.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript">
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/indx.css"/>
+
+		<script src="js/width.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
 			to.setFontSize(18);
-			window.onload = function(){
-				window.onresize = function(){
+			window.onload = function() {
+				window.onresize = function() {
 					to.setFontSize(18);
 				}
 			}
-	</script>
-	
-	
+		</script>
+	</head>
+
 	<body>
+
+
+		<!--		顶部-->
+
+		<header>
+			<ul class="clearlr">
+				<li>
+					<!--						直接关闭页面-->
+					<a href="javascript:window.opener=null;window.open('','_self');window.close();">
+						<!--						关闭当前页面-->
+						<!--						<a href=""></a>-->
+						<img src="image/shanchu.png" />
+
+					</a>
+					<img src="image/jiange.png" />
+				</li>
+				<li>
+					豆芽旅游网·去某某旅游的路线路线豆芽旅
+				</li>
+				<li>
+					<button>
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</li>
+			</ul>
+		</header>
 		
 		
+		<!--	banner	-->
+		<div class="banner">
+			<ul class="clearlr">
+				<li>
+					<a href="javascript:history.go(-1)"><img src="image/left.png" /></a>
+				</li>
+				<li>
+					私人订制
+				</li>
+				<li>
+					
+				</li>
+			</ul>
+		</div>
+
 		
-		<a href="ddly.html">当地旅游</a>
-		<a href="dz.html">私人订制</a>
-		<a href="gl.html">攻略</a>
-		<a href="qz.html">签证</a>
-		<a href="yh.html">优惠</a>
-		
+		<form action="" method="post">
+			
+			<div>
+				<span><img src="image/dianhua.png"/></span>
+				<input type="text" placeholder=""/>
+			</div>
+			
+		</form>
+
 	</body>
+
 </html>
