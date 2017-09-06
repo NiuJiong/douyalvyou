@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0" />
+		<title></title>
+		<link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/dz.css" />
+
+		<script src="js/width.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			to.setFontSize(18);
+			window.onload = function() {
+				window.onresize = function() {
+					to.setFontSize(18);
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+
+		<!--		顶部-->
+
+		<header>
+			<ul class="clearlr">
+				<li>
+					<!--						直接关闭页面-->
+					<a href="javascript:window.opener=null;window.open('','_self');window.close();">
+						<!--						关闭当前页面-->
+						<!--						<a href=""></a>-->
+						<img src="image/shanchu.png" />
+
+					</a>
+					<img src="image/jiange.png" />
+				</li>
+				<li>
+					豆芽旅游网·去某某旅游的路线路线豆芽旅
+				</li>
+				<li>
+					<button>
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</li>
+			</ul>
+		</header>
+
+		<!--	banner	-->
+		<div class="banner">
+			<img src="image/dingzhi.png" />
+			<ul class="clearlr">
+				<li>
+					<a href="javascript:history.go(-1)"><img src="image/left.png" /></a>
+				</li>
+				<li>
+					私人订制
+				</li>
+				<li>
+					<a href="">
+						<img src="image/gouwuche.png" />
+					</a>
+					<a href="">
+						<img src="image/people.png" />
+					</a>
+					<a href="">
+						<img src="image/sousuo.png" />
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<!--		表单填写-->
+		<form action="">
+			<div>
+				<span><img src="image/dz01.png"/></span>
+				<input type="text" placeholder="请填写您想玩的景点或城市" />
+			</div>
+			<div class="">
+				<span><img src="image/dz02.png"/></span>
+
+				<span>成人</span>
+				<ul class="clearlr cradd">
+					<li><img src="image/remove.png" /></li>
+					<li>0</li>
+					<li><img src="image/add.png" /></li>
+				</ul>
+				
+				<span>儿童</span>
+				<ul class="clearlr">
+					<li><img src="image/remove.png" /></li>
+					<li>0</li>
+					<li><img src="image/add.png" /></li>
+				</ul>
+
+			</div>
+			<div>
+				<span><img src="image/dz03.png"/></span>
+				<input type="text" placeholder="参团城市" />
+			</div>
+			<div>
+				<span><img src="image/dz04.png"/></span>
+				<input type="text" placeholder="离团城市" />
+			</div>
+			<div>
+				<span><img src="image/dz05.png"/></span>
+				<input type="text" placeholder="行程天数" />
+			</div>
+			<div class="fangjian">
+				<span><img src="image/dz06.png"/></span>
+				<span>房间</span>
+				<ul class="clearlr">
+					<li><img src="image/remove.png" /></li>
+					<li>0</li>
+					<li><img src="image/add.png" /></li>
+				</ul>
+				<span class="">
+					<input type="radio" name="fj"/>标准间
+				</span>
+				<span>
+					<input type="radio" name="fj"/>商务间
+				</span>
+			</div>
+			<div class="car">
+				<span><img src="image/dz07.png"/></span>
+				
+				<div class="clearlr">
+					<span class="">
+						<input type="radio" name="car"/>7座
+					</span>
+					<span>
+						<input type="radio" name="car"/>25座
+					</span>
+					<span>
+						<input type="radio" name="car"/>32座
+					</span>
+					<span>
+						<input type="radio" name="car"/>商务座
+					</span>
+					<span>
+						<input type="radio" name="car"/>15座平顶VAN
+					</span>
+				</div>
+				
+				
+			</div>
+			<div class="ysno">
+				<span><img src="image/dz08.png"/></span>
+				<span>
+					<input type="radio" name="car"/>是
+				</span>
+				<span>
+					<input type="radio" name="car"/>否
+				</span>
+			</div>
+			<div>
+				<span><img src="image/dz09.png"/></span>
+				<input type="text" placeholder="预算花费" />
+			</div>
+			<div>
+				<span><img src="image/dz10.png"/></span>
+				<input type="text" placeholder="备注说明" />
+			</div>
+			<div>
+				<span><img src="image/dz11.png"/></span>
+				<input type="text" placeholder="填写你的手机号码" />
+			</div>
+			<div>
+				<span><img src="image/dz12.png"/></span>
+				<input type="text" placeholder="E-mail  (必填）" />
+			</div>
+			<div class="yanzhengma">
+				<span><img src="image/dz14.png"/></span>
+				<input type="text"/>
+				<span>
+					vgxm
+				</span>
+				<div>
+					（看不清？换一张）
+				</div>
+			</div>
+		</form>
+
+
+
+		<script src="js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script src="js/dz.js" type="text/javascript" charset="utf-8"></script>
+
+
+	</body>
+
+
+
+</html>

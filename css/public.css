@@ -1,0 +1,167 @@
+body,html,h1,h2,h3,h4,h5,h6,p,ul,li,a{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+button{
+	outline: none;
+}
+a:focus,a:active{
+	border: none;
+	background: none;
+}
+.clearlr:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.clearlr{
+	zoom: 1;
+}
+
+
+
+@font-face {
+	font-family:pingfangcenter;
+	src: url("../font/PingFang Medium.ttf");
+}
+@font-face {
+	font-family:yanzhengma;
+	src: url("../font/HYI4GFM.TTF");
+}
+
+
+/*顶部*/
+header{
+	height: 2.448rem;
+	background: #3F3F3F;
+}
+header ul{
+	height: 2.448rem;
+}
+header ul li{
+	height: 2.448rem;
+	float: left;
+	width: 2.232rem;
+	line-height:2.448rem;
+}
+header ul li:nth-child(2){
+	width: 13.536rem;
+	color: white;
+	font-family: pingfangcenter;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 0.816rem;
+	text-indent: 0.5rem;
+}
+header ul li:nth-child(3){
+	float: right;	
+}
+header ul li:nth-child(1){
+	font-size: 0;
+}
+header ul li:nth-child(1)>img{
+	vertical-align: middle;
+	width:1px;
+	height: 0.816rem;
+	margin-left: 0.41rem;
+}
+header ul li:nth-child(1) a{
+	
+}
+header ul li:nth-child(1) a img{
+	margin-left: 0.95rem;
+	vertical-align: middle;
+	width:0.816rem;
+}
+header ul li:nth-child(3) button{
+		border: none;
+		display: block;
+		width: 100%;
+		height: 100%;
+		background: none;
+}
+header ul li:nth-child(3) button span{
+	display: block;
+	width: 0.3rem;
+	border-radius:50%;
+	height: 0.3rem;
+	background: white;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+header ul li:nth-child(3) button span:nth-child(n+2){
+	margin-top: 0.2rem;
+}
+
+
+
+
+/*<!--		菜单栏-->*/
+.banner{
+	
+}
+.banner ul{
+	font-size: 0;
+}
+.banner ul li{
+	display: inline-block;
+	width:6rem;
+	vertical-align: middle;
+}
+.banner ul li:nth-child(3){
+	
+}
+.banner ul li:nth-child(3) a{
+	display:inline-block;
+	width: 1rem;
+	height: 1rem;
+	margin-left: 0.7rem;
+	-webkit-tap-highlight-color: transparent;
+}
+.banner ul li:nth-child(3) a:nth-child(1){
+	margin-left:1.2rem;
+}
+.banner ul li:nth-child(3) a img{
+	height: 1rem;
+}
+.banner ul li:nth-child(3) a:nth-child(3) img{
+	width: 0.8rem;
+	height: 1rem;
+}
+.banner ul li:nth-child(1) img{
+	display: block;
+	width: 85%;
+	margin: auto;
+}
+.banner ul li:nth-child(2) img{
+	display: block;
+	width: 65%;
+	margin: auto;
+}
+
+
+
+
+/*<!--		底部-->*/
+footer{
+	margin-top: 30px;
+	background: #F4F5F9;
+	padding: 30px 0 20px 0;
+}
+footer p{
+	text-align: center;
+	font-size: ;
+	color: #7c7c7c;
+	font-size: 0.528rem;
+	font-family: pingfangcenter;
+}

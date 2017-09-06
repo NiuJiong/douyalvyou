@@ -1,0 +1,86 @@
+/*<!--		内容区-->*/
+.content{
+	border-top:2px solid #EBEBEB;
+}
+.content>div:nth-child(1){
+	border-bottom: 1px solid #EBEBEB;
+	height: 1.7967rem;
+	overflow: hidden;
+}
+.content>div:nth-child(1) ul{
+	height: 1.7967rem;
+}
+.content>div:nth-child(1) ul li{
+	float:left;
+	height: 1.6967rem;
+	margin: 0 0.756rem;
+	font-size: 0.672rem;
+	color: #959694;
+	font-family: pingfangcenter;
+	line-height: 1.6967rem;
+}
+.content>div:nth-child(1) ul li.active{
+	border-bottom: 0.1rem solid #7EA51C;
+	color: #7ea51c;
+}
+.content>div:nth-child(2){
+	margin: 0 0.2rem 0 0.756rem;
+}
+.content>div:nth-child(2) ul:nth-child(1){
+	margin-top: 0.5rem;
+}
+.content>div:nth-child(2) ul:nth-child(1) li{
+	margin-bottom: 0.8rem;
+	position: relative;
+}
+.content>div:nth-child(2) ul:nth-child(1) li>div{
+	float: left;
+}
+.content>div:nth-child(2) ul:nth-child(1) li>div:nth-child(1){
+	width: 6rem;
+}
+.content>div:nth-child(2) ul:nth-child(1) li>div:nth-child(2){
+	margin-left: 0.5rem;
+	width: 10.3rem;
+}
+.content>div:nth-child(2) ul:nth-child(1) li>div:nth-child(2) p:nth-child(1){
+	font-size: 0.72rem;
+	font-family: pingfangcenter;
+	color: #414141;
+	margin-top: -0.15rem;
+}
+.content>div:nth-child(2) ul:nth-child(1) li>div:nth-child(2) p:nth-child(2){
+	font-size: 0.48rem;
+	font-family: pingfangcenter;
+	color: #6f6b6b;
+	text-indent: 2em;
+	transform: scale(0.8);
+	margin-left: -10%;
+	margin-right: -10%;
+	margin-top: -2%;
+}
+.content>div:nth-child(2) ul:nth-child(1) li>div:nth-child(2) p:nth-child(2) a{
+	color: #ff9f41;
+}
+.content>div:nth-child(2) ul:nth-child(1) li>div:nth-child(2) p:nth-child(3) span{
+	float: right;
+	font-size: 0.432rem;
+	font-family: pingfangcenter;
+	margin-left: 0.8rem;
+	padding-left: 1.12rem;
+}
+.content>div:nth-child(2) ul:nth-child(1) li>div:nth-child(2) p:nth-child(3){
+	position: absolute;
+	right: 0.5rem;
+	bottom:0.2rem;
+}
+.content>div:nth-child(2) ul:nth-child(1) li>div:nth-child(2) p:nth-child(3) span:nth-child(1){
+	background: url(../image/cishu.png) no-repeat 0 center;
+	background-size:0.72rem auto;
+}
+.content>div:nth-child(2) ul:nth-child(1) li>div:nth-child(2) p:nth-child(3) span:nth-child(2){
+	background: url(../image/time01.png) no-repeat 0 center;
+	background-size:0.65rem auto;
+}
+
+
