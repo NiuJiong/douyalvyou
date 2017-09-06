@@ -115,6 +115,18 @@ form .yanzhengma div{
 	vertical-align: middle;
 }
 
+form .yanzhengma div img.active{
+	width: 1.344rem;
+	animation: xuanzhuan 2s linear infinite;
+}
+@keyframes xuanzhuan{
+	from{
+		transform: rotateZ(0);
+	}
+	to{
+		transform: rotateZ(-360deg);
+	}
+}
 form div:nth-child(6){
 	border: 1px solid #9D9B9B;
 	font-size: 0.816rem;

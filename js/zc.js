@@ -15,6 +15,13 @@ $(function() {
 	};
 	$("form .yanzhengma .ht").html(y);
 	$("form .yanzhengma div").click(function() {
+		if($("form .yanzhengma .ht").text() ==""){
+			$("form .yanzhengma div img").addClass("active");
+		}else{
+			$("form .yanzhengma div img").removeClass("active");
+		}
 		$("form .yanzhengma .ht").html(y);
 	});
+	
+	
 });
