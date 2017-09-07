@@ -15,12 +15,22 @@ $(function() {
 	};
 	$("form .yanzhengma .ht").html(y);
 	$("form .yanzhengma div").click(function() {
-		if($("form .yanzhengma .ht").text() ==""){
-			$("form .yanzhengma div img").addClass("active");
-		}else{
-			$("form .yanzhengma div img").removeClass("active");
-		}
+//		if($("form .yanzhengma .ht").text() ==""){
+//			$("form .yanzhengma div img").addClass("active");
+//		}else{
+//			$("form .yanzhengma div img").removeClass("active");
+//		}
+		$("form .yanzhengma div img").addClass("active");
 		$("form .yanzhengma .ht").html(y);
+		
+		
+		if($("form .yanzhengma .ht").text()!=""){
+			setTimeout(function(){
+				$("form .yanzhengma div img").removeClass("active");
+			},300);
+		}
+		
+		
 	});
 	
 	
