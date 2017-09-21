@@ -95,8 +95,7 @@ form div input::-webkit-input-placeholder{
 }
 form div:nth-child(3){
 	border: 1px solid #9D9B9B;
-	font-size: 0.816rem;
-	color: #CBC5BB;
+	
 	font-family: pingfangcenter;
 	text-align: center;
 	border-radius:30px;
@@ -104,6 +103,10 @@ form div:nth-child(3){
 	padding: 0.3rem 0;
 	letter-spacing: 1rem;
 	text-indent: 1rem;
+}
+form div:nth-child(3) a{
+	font-size: 0.816rem;
+	color: #CBC5BB;
 }
 form div:nth-child(4){
 	border: none;
