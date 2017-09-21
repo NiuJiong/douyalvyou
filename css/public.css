@@ -165,3 +165,13 @@ footer p{
 	font-size: 0.528rem;
 	font-family: pingfangcenter;
 }
+.totop{
+	position: fixed;
+	right: 0;
+	bottom: 3rem;
+	height: 1.5rem;
+	width: 1.5rem;
+	background: white;
+	border-radius: 50%;
+	z-index: 99999 !important;
+}
