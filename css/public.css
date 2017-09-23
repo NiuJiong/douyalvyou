@@ -1,9 +1,10 @@
-body,html,h1,h2,h3,h4,h5,h6,p,ul,li,a{
+body,html,h1,h2,h3,h4,h5,h6,p,ul,li,a,div{
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
 }
+*{border:0;padding:0;margin:0;text-decoration:none;}
 img{
 	width: 100%;
 	height: auto;
@@ -104,28 +105,31 @@ header ul li:nth-child(3) button span:nth-child(n+2){
 }
 
 
-
-
 /*<!--		菜单栏-->*/
 .banner{
 	
 }
 .banner ul{
 	font-size: 0;
+	overflow: hidden;
 }
 .banner ul li{
 	display: inline-block;
-	width:6rem;
+	width:33.333333%;
 	vertical-align: middle;
+}
+.banner>ul li:nth-child(1) a {
+    display: inline-block;
 }
 .banner ul li:nth-child(3){
 	
 }
 .banner ul li:nth-child(3) a{
-	display:inline-block;
+	display:block;
+	float: left;
 	width: 1rem;
 	height: 1rem;
-	margin-left: 0.7rem;
+	margin-left: 0.5rem;
 	-webkit-tap-highlight-color: transparent;
 }
 .banner ul li:nth-child(3) a:nth-child(1){
@@ -148,7 +152,6 @@ header ul li:nth-child(3) button span:nth-child(n+2){
 	width: 65%;
 	margin: auto;
 }
-
 
 
 

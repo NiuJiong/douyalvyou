@@ -12,7 +12,7 @@
 		<script type="text/javascript">
 			to.setFontSize(18);
 			window.onload = function() {
-				window.onresize = function() {
+				window.onresize = function(){
 					to.setFontSize(18);
 				}
 			}
@@ -33,12 +33,8 @@
 		<header>
 			<ul class="clearlr">
 				<li>
-					<!--						直接关闭页面-->
-					<a href="javascript:window.opener=null;window.open('','_self');window.close();">
-						<!--						关闭当前页面-->
-						<!--						<a href=""></a>-->
+					<a>
 						<img src="image/shanchu.png" />
-
 					</a>
 					<img src="image/jiange.png" />
 				</li>
@@ -57,14 +53,14 @@
 
 		<!--		菜单栏-->
 		<div class="banner">
-			<ul>
-				<li>
-					<img src="image/logo.png" />
+			<ul class="clearlr">
+				<li class="banner_one">
+					<a href="index.html"><img src="image/logo.png" /></a>
 				</li>
-				<li>
+				<li class="bantwo">
 					<img src="image/logo02.png" />
 				</li>
-				<li>
+				<li class="banthree">
 					<a href="shoppingcart.html">
 						<img src="image/gouwuche.png" />
 					</a>
@@ -75,6 +71,12 @@
 						<img src="image/sousuo.png" />
 					</a>
 				</li>
+				<!--
+				
+				<li>
+					
+					
+				</li>-->
 			</ul>
 		</div>
 
@@ -115,7 +117,7 @@
 
 
 			<!--			详情-->
-			<div>
+			<div class="xiangqingclick">
 				<ul>
 					<li>
 						<p>
@@ -125,7 +127,7 @@
 								<span>团号：EA1-0609</span>
 							</span>
 						</p>
-						<div class="active">
+						<div class="active ddclick">
 							<p>
 								<美东•纽约敞篷巴士8日豪华之旅>六大名城（纽约+费 城+华盛顿特区+康宁+尼亚加拉大瀑布+波士顿）+ 纽约敞篷巴士
 							</p>
@@ -182,7 +184,7 @@
 								<span>团号：EA1-0609</span>
 							</span>
 						</p>
-						<div class="active">
+						<div class="ddclick">
 							<p>
 								<美东•纽约敞篷巴士8日豪华之旅>六大名城（纽约+费 城+华盛顿特区+康宁+尼亚加拉大瀑布+波士顿）+ 纽约敞篷巴士
 							</p>
@@ -238,7 +240,7 @@
 								<span>团号：EA1-0609</span>
 							</span>
 						</p>
-						<div class="active">
+						<div class="ddclick">
 							<p>
 								<美东•纽约敞篷巴士8日豪华之旅>六大名城（纽约+费 城+华盛顿特区+康宁+尼亚加拉大瀑布+波士顿）+ 纽约敞篷巴士
 							</p>

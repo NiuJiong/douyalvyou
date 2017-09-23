@@ -21,18 +21,39 @@ $(function() {
 
 	//	选择房间车辆
 	$("form .fangjian .fj").click(function() {
-		$("form .fangjian .fj").removeClass("active");
-		$(this).addClass("active");
+		if($(this).hasClass("active")){
+			$(this).removeClass("active");
+			
+		}else{
+			$("form .fangjian .fj").removeClass("active");
+			$(this).addClass("active");
+		}
+		
+//				$("form .fangjian .fj").removeClass("active");
+//		$(this).addClass("active");
 	});
 
 	$("form .car .xzcat span").click(function() {
-		$("form .car .xzcat span").removeClass("active");
-		$(this).addClass("active");
+		
+		if($(this).hasClass("active")){
+			$(this).removeClass("active");
+			
+		}else{
+			$("form .car .xzcat span").removeClass("active");
+			$(this).addClass("active");
+		}
+//		$("form .car .xzcat span").removeClass("active");
+//		$(this).addClass("active");
 	});
 
 	$(".ysno .ye").click(function() {
-		$(".ysno .ye").removeClass("active");
-		$(this).addClass("active");
+		if($(this).hasClass("active")){
+			$(this).removeClass("active");
+		}else{
+			$(".ysno .ye").removeClass("active");
+			$(this).addClass("active");
+		}
+//		$(this).addClass("active");
 	});
 
 

@@ -22,6 +22,16 @@
 	padding: 0.3rem 0;
 	
 }
+@-moz-document url-prefix(){
+	.content .topnav ul li{
+		float: left;
+		font-size: 0.72rem;
+		font-family: pingfangcenter;
+		color: #838383;
+		margin: 0 0.4rem;
+		padding: 0.3rem 0;
+	}
+}
 .content .topnav ul li.active{
 	border-bottom: 2px solid #84AB28;
 	color: #84ab28;
@@ -42,6 +52,11 @@
 	font-size: 0.528rem;
 	font-weight: bold;
 	margin-top: 0.3rem;
+}
+@-moz-document url-prefix(){
+.content .timed p:nth-child(2){
+	font-size: 0.7rem;
+}	
 }
 .content .timed p:nth-child(2) span{
 	font-size: 0.576rem;

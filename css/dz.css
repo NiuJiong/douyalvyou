@@ -54,25 +54,25 @@ form>div>input{
 	text-indent: 1em;
 	border: none;
 	outline: none;
-	color: #c1c1c1;
+	color: #888888;
 	font-family: pingfangcenter;
 	letter-spacing: 0.05rem;
 	margin-left: 1rem;
 }
 form>div>input::-ms-input-placeholder{
-	color: #c1c1c1;
+	color: #888888;
 	font-family: pingfangcenter;
 	font-size: 0.624rem;
 	letter-spacing: 0.05rem;
 }
 form>div>input::-moz-placeholder{
-	color: #c1c1c1;
+	color: #888888;
 	font-family: pingfangcenter;
 	font-size: 0.624rem;
 	letter-spacing: 0.05rem;
 }
 form>div>input::-webkit-input-placeholder{
-	color: #c1c1c1;
+	color: #888888;
 	font-family: pingfangcenter;
 	font-size: 0.624rem;
 	letter-spacing: 0.05rem;
@@ -108,8 +108,8 @@ form>div ul li img{
 	width: 0.552rem;
 }
 form>div ul li:nth-child(2){
-	font-size: 0.912rem;
-	font-weight: bold;
+	font-size: 0.624rem;
+	padding: 0.2rem 0;
 	text-align: center;
 	font-family: pingfangcenter;
 	border-left:1px solid #959595;

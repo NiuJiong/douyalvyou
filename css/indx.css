@@ -76,22 +76,22 @@ form div input{
 	outline: none;
 	font-size: 0.768rem;
 	font-family: pingfangcenter;
-	color: #9A9484;
+	color: #e0e0df;
 }
 form div input::-moz-placeholder{
 	font-size: 0.768rem;
 	font-family: pingfangcenter;
-	color: #9A9484;
+	color: #e0e0df;
 }
 form div input::-ms-input-placeholder{
 	font-size: 0.768rem;
 	font-family: pingfangcenter;
-	color: #9A9484;
+	color: #e0e0df;
 }
 form div input::-webkit-input-placeholder{
 	font-size: 0.768rem;
 	font-family: pingfangcenter;
-	color: #9A9484;
+	color: #e0e0df;
 }
 form div:nth-child(3){
 	border: 1px solid #9D9B9B;
@@ -106,7 +106,7 @@ form div:nth-child(3){
 }
 form div:nth-child(3) a{
 	font-size: 0.816rem;
-	color: #CBC5BB;
+	color: #e0e0df;
 }
 form div:nth-child(4){
 	border: none;
@@ -149,6 +149,13 @@ form div:last-child a:nth-child(1){
 }
 form div:last-child a:nth-child(2){
 	width: 1.6rem;
-	background: url(../image/qqweixin.png) no-repeat -53px center;
-	background-size:auto 1.236rem;
+	background: url(../image/weixin.png) no-repeat center center;
+	background-size:auto 1.5rem;
+}
+@-moz-document url-prefix(){
+	form div:last-child a:nth-child(2){
+		width: 1.6rem;
+		background: url(../image/weixin.png) no-repeat center center;
+		background-size:auto 1.6rem;
+	}
 }

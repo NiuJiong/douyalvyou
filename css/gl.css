@@ -54,6 +54,7 @@
 }
 .content>div ul:nth-child(1) li>div:nth-child(1){
 	width: 6rem;
+	margin-left: 0.5rem;
 }
 .content>div ul:nth-child(1) li>div:nth-child(2){
 	margin-left: 0.5rem;
@@ -70,10 +71,14 @@
 	font-family: pingfangcenter;
 	color: #6f6b6b;
 	text-indent: 2em;
-	transform: scale(0.8);
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+	/*transform: scale(0.8);
 	margin-left: -10%;
 	margin-right: -10%;
-	margin-top: -2%;
+	margin-top: -2%;*/
 }
 .content>div ul:nth-child(1) li>div:nth-child(2) p:nth-child(2) a{
 	color: #ff9f41;
@@ -99,4 +104,6 @@
 	background-size:0.65rem auto;
 }
 
-
+footer{
+	padding: 10px 0 10px 0;
+}
