@@ -161,82 +161,102 @@ body{
 	display: inline-block;
 	vertical-align: bottom;
 }
-.time ul{
+.time .tilist{
 	background: #EBEBEB;
 	padding: 0.2rem 0;
 }
-.time ul li{
+.time .tilist a{
 	float: left;
 	width: 47%;
 	margin:0 1.5%;
 }
-.time ul li>p img{
+.time .tilist a>p{
+	position: relative;
+}
+.time .tilist a>p span{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	padding: 0.3rem 0;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 0.384rem;
+	text-indent: 0.2rem;
+	z-index: 8888;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.time .tilist a>p img{
 	display: block;
 }
-.time ul li>div{
+.time .tilist a>div{
 	background: white;
 	padding-top: 0.2rem;
 	padding-bottom: 0.5rem;
 }
-.time ul li>div p{
+.time .tilist a>div p{
 	margin-left: 0.2rem;
 	font-size: 0.384rem;
 	font-family: pingfangcenter;
 	color: #5d5959;
 	margin-bottom: 0.3rem;
 }
-.time ul li>div p span{
+.time .tilist a>div p span{
 	color: #84ab28;
 }
-.time ul li>div p:nth-child(3){
+.time .tilist a>div p:nth-child(3){
 	transform: scale(0.8);
 	margin-left: -8%;
 	margin-top: -3%;
 	margin-right:-10%;
 	color: #5d5959;
 }
-.time ul li>div p:nth-child(3) span{
+.time .tilist a>div p:nth-child(3) span{
 	color: #5d5959;
 }
 @-moz-document url-prefix(){
-	.time ul li>div p:nth-child(3){
+	.time .tilist a>div p:nth-child(3){
 		transform: scale(1);
 	margin-left: 0.2rem;
 	margin-top: 0%;
 	margin-right:0%;
 	}
 }
-.time ul li>div p:nth-child(3) span:nth-child(1){
+.time .tilist a>div p:nth-child(3) span:nth-child(1){
 	margin-right: 0.2rem;
 }
-.time ul li>div p:nth-child(3) span:nth-child(2){
+.time .tilist a>div p:nth-child(3) span:nth-child(2){
 	margin-right: 0.3rem;
 }
-.time ul li>div p:nth-child(4) {
+.time .tilist a>div p:nth-child(4) {
 	padding-top: 0.4rem;
 }
-.time ul li>div p:nth-child(4) span{
+.time .tilist a>div p:nth-child(4) span{
 	vertical-align: middle;
 }
-.time ul li>div p:nth-child(4) span:nth-child(1){
+.time .tilist a>div p:nth-child(4) span:nth-child(1){
 	color: #ff9f41;
 	font-size: 0.672rem;
 }
-.time ul li>div p:nth-child(4) span:nth-child(2){
+.time .tilist a>div p:nth-child(4) span:nth-child(2){
 	display: inline-block;
 	color: #ff9f41;
 	font-size: 0.384rem;
 	color: #a9a9a9;
 	transform: scale(0.9);
 	text-decoration: line-through;
+	font-family: "微软雅黑";
 }
 @-moz-document url-prefix(){
-	.time ul li>div p:nth-child(4) span:nth-child(2){
+	.time .tilist a>div p:nth-child(4) span:nth-child(2){
 		transform: scale(1);
 		margin-left: 0.2rem;
 	}
 }
-.time ul li>div p:nth-child(4) a{
+.time .tilist a>div p:nth-child(4) button{
 	float: right;
 	margin-top: -0.3rem;
 	border: none;
@@ -248,6 +268,7 @@ body{
 	padding: 0.2rem 0.3rem;
 	vertical-align: bottom;
 	margin-right: 0.5rem;
+	outline: none;
 }
 
 
@@ -304,8 +325,8 @@ body{
 	float: right;
 	font-size: 0.4rem;
 	color: #84AB28;
-	margin-top: 0.4rem;
-	transform: scale(0.9);
+	margin-top: 0.6rem;
+/*	transform: scale(0.9);*/
 }
 .sect>ul{
 	margin-top: 0.5rem;
@@ -316,11 +337,11 @@ body{
 .sect>ul>li.active{
 	box-shadow: ;
 }
-.sect>ul>li>div:nth-child(1){
+.sect>ul>li>a>div:nth-child(1){
 	position: relative;
 	height: 7.2rem;
 }
-.sect>ul>li>div:nth-child(1) .txyy{
+.sect>ul>li>a>div:nth-child(1) .txyy{
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -330,10 +351,10 @@ body{
 	border-right:2.5rem solid transparent;
 	width: 8.524rem;	
 }
-.sect>ul>li>div:nth-child(1)>img{
+.sect>ul>li>a>div:nth-child(1)>img{
 	display: block;
 }
-.sect>ul>li>div:nth-child(1) .tx{
+.sect>ul>li>a>div:nth-child(1) .tx{
 	position: absolute;
 	top: 0.1rem;
 	bottom: 0;
@@ -350,25 +371,41 @@ body{
 	
 }
 @-moz-document url-prefix(){
-	.sect>ul>li>div:nth-child(1) .tx{
+	.sect>ul>li>a>div:nth-child(1) .tx{
 		transform: scale(1);
 	margin-left: 0%;
 	margin-right: 0%;
 	}		
 }
-.sect>ul>li>div:nth-child(1) .tx p{
+.sect>ul>li>a>div:nth-child(1) .tx p{
 	margin: 0.1rem 0;
 	margin-left: 0.5rem;
 }
-.sect>ul>li>div:nth-child(1) .tx p:nth-child(4){
+.sect>ul>li>a>div:nth-child(1) .tx p:nth-child(1){
+	text-indent: 0.85rem;
+	background: url(../image/chufa01.png) no-repeat 0 center;
+	background-size:0.65rem auto;
+}
+.sect>ul>li>a>div:nth-child(1) .tx p:nth-child(2){
+	text-indent: 0.85rem;
+	background: url(../image/jiehsu.png) no-repeat 0 center;
+	background-size:0.65rem auto;
+}
+.sect>ul>li>a>div:nth-child(1) .tx p:nth-child(3){
+	text-indent: 0.85rem;
+	background: url(../image/chufa02.png) no-repeat 0 center;
+	background-size:0.65rem auto;
+}
+.sect>ul>li>a>div:nth-child(1) .tx p:nth-child(4){
 	text-align: center;
 	color: #a9a9a9;
 	text-decoration: line-through;
 	width: 3rem;
 	margin: auto;
 	text-align: center;
+	font-family: "微软雅黑";
 }
-.sect>ul>li>div:nth-child(1) .tx p:nth-child(5){
+.sect>ul>li>a>div:nth-child(1) .tx p:nth-child(5){
 	background: #84AB28;
 	margin: auto;
 	width: 3rem;
@@ -377,23 +414,23 @@ body{
 	padding: 0.1rem 0;
 	margin-top: 0.1rem;
 }
-.sect>ul>li>div:nth-child(1) ul{
+.sect>ul>li>a>div:nth-child(1) ul{
 	margin-top: 0.5rem;
 	transform: scale(0.8);
 	margin-left: -12%;
 	margin-right: -20%;
 }
 @-moz-document url-prefix(){
-	.sect>ul>li>div:nth-child(1) ul{
+	.sect>ul>li>a>div:nth-child(1) ul{
 		transform: scale(1);
 		margin-left: 0%;
 		margin-right: 0%;
 	}		
 }
-.sect>ul>li>div:nth-child(1) ul li span{
+.sect>ul>li>a>div:nth-child(1) ul li span{
 	margin-left: 0.85rem;
 }
-.sect>ul>li>div:nth-child(1) ul li{
+.sect>ul>li>a>div:nth-child(1) ul li{
 	float: left;
 	font-size: 0.432rem;
 	background: url(../image/mianfeijisong.png) no-repeat 0 center;
@@ -407,11 +444,11 @@ body{
 
 
 
-.sect>ul>li>div:nth-child(2) {
+.sect>ul>li>a>div:nth-child(2) {
 	padding: 0.5rem 0;
 	border-radius:0 0 3px 3px;
 }
-.sect>ul>li>div:nth-child(2) p{
+.sect>ul>li>a>div:nth-child(2) p{
 	color: #3d3d3d;
 	font-size: 0.624rem;
 	overflow: hidden;
@@ -419,14 +456,14 @@ body{
 	white-space: nowrap;
 	margin-left: 0.2rem;
 }
-.sect>ul>li>div:nth-child(2).active{
+.sect>ul>li>a>div:nth-child(2).active{
 	box-shadow: 2px 0 2px #CFCFCF,
 				-2px 0 2px #CFCFCF,
 				0 2px 10px #CFCFCF,
 				0 -1px 0 white;	
 }
 
-.sect>ul>li>div:nth-child(2) p:last-child{
+.sect>ul>li>a>div:nth-child(2) p:last-child{
 	color: #a4a4a4;
 	font-size: 0.576rem;
 	margin-top: 0.1rem;
@@ -460,6 +497,9 @@ body{
 }
 .news .newslis div:nth-child(1){
 	position: relative;
+}
+.news .newslis div:nth-child(1) a{
+	display: block;
 }
 .news .newslis div:nth-child(1) img{
 	display: block;
@@ -686,6 +726,7 @@ body{
 	transform: scale(1);
 	margin-left: 0%;
 	margin-right: 0%;
+	font-family: "微软雅黑";
 }	
 }
 

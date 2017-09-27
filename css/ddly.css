@@ -64,7 +64,7 @@
 .content>div:nth-child(2)>ul{
 	
 }
-.content>div:nth-child(2)>ul>li{
+.content>div:nth-child(2)>ul>li:not(:first-child){
 	margin-top: 20px;
 	
 }
@@ -141,6 +141,11 @@
 	margin-top: -0.25rem;
 	margin-right: 0.3rem;
 	
+}
+@-moz-document url-prefix(){
+	.content>div:nth-child(2)>ul>li>div div:nth-child(2) div:nth-child(2){
+		font-family: "微软雅黑";
+	}
 }
 .content>div:nth-child(2)>ul>li>div div:nth-child(2) div:nth-child(2) p:nth-child(1){
 	text-decoration: line-through;

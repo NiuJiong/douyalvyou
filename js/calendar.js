@@ -120,13 +120,13 @@ $(function () {
                         '<span class="arrow-prev"><</span>'+
                         '<span class="arrow-next">></span>'+
                       '</div>';
-      var _weekStr = '<li class="item">日</li>'+
-                      '<li class="item">一</li>'+
-                      '<li class="item">二</li>'+
-                      '<li class="item">三</li>'+
-                      '<li class="item">四</li>'+
-                      '<li class="item">五</li>'+
-                      '<li class="item">六</li>';
+      var _weekStr = '<li class="item">周日</li>'+
+                      '<li class="item">周一</li>'+
+                      '<li class="item">周二</li>'+
+                      '<li class="item">周三</li>'+
+                      '<li class="item">周四</li>'+
+                      '<li class="item active">周五</li>'+
+                      '<li class="item">周六</li>';
       var _dateStr = '';
       var _dayStr = '<i class="triangle"></i>'+
                     '<p class="date"></p>'+

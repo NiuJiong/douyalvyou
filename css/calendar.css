@@ -16,6 +16,7 @@
 .calendar-title a.title {
   display: inline-block;
   font-size: 0.71rem; color: #84ab28; text-align: center; width: 100%;
+  font-weight: bold;
 }
 #backToday {
   position: absolute;
@@ -32,7 +33,7 @@
 }
 .calendar-title .arrow {
   position: absolute;
-  top: 8rem;
+  top: 11rem;
   right: 0;
   width: 100%;
 }
@@ -73,9 +74,18 @@
   line-height: 50px;
   text-align: center;
 }
+.calendar-week .item{
+	font-weight: 100;
+	color: #333333;
+}
+.calendar-week .item.active{
+	background: #85AC2A;
+	color: white;
+	font-weight: 100;
+}
 .calendar-week {
-  padding-bottom: 6px;
-  border-bottom: 1px solid #84ab28;
+/*  padding-bottom: 6px;*/
+  border: 1px solid #84ab28;
   font-weight: bold;
   font-size: 16px;
 }
@@ -91,7 +101,7 @@
 }
 .calendar-date .item-curMonth {
   color: #333;
-  font-weight: bold;
+/*  font-weight: bold;*/
 }
 .calendar-date .item-curDay,
 .calendar-date .item-curDay:hover {

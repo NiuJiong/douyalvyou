@@ -220,3 +220,19 @@ form .yanzhengma div{
 	color: #979797;
 	font-family: pingfangcenter;
 }
+form{
+	padding-bottom: 0;
+}
+form>button{
+	margin-top: 1rem;
+	display: block;
+	width: 100%;
+	border: none;
+	outline: none;
+	background: #7EA51C;
+	color: white;
+	font-size: 0.816rem;
+	font-family: "pingfangcenter";
+	padding: 0.5rem 0;
+	font-weight: bold;
+}

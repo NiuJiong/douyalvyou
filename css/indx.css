@@ -1,6 +1,6 @@
 /*<!--	banner	-->*/
 header{
-	background: none;
+	background-color: #3F3F3F;
 }
 .banner{
 	
@@ -33,7 +33,7 @@ body>div{
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 0;
+	top: 2.44rem;
 }
 
 

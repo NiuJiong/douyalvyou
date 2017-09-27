@@ -147,3 +147,8 @@ hr{
 .menu ul li:nth-child(3) img{
 	width: 1.3rem;
 }
+
+
+.banner ul li:nth-child(3){
+	text-align: right;
+}

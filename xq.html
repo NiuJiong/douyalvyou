@@ -5,6 +5,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0" />
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/public.css" />
 		<link rel="stylesheet" type="text/css" href="css/ddly.css" />
 		<link rel="stylesheet" type="text/css" href="css/xq.css" />
@@ -86,10 +87,35 @@
 		</div>
 
 		<div class="lxs_box">
-			<img src="image/xq_21.jpg">
+			<!--<img src="image/xq_21.jpg">
 			<div class="lxs_til">
 				<span>接地社：豆芽旅行社</span>
 				<span>旅游团号：3585</span>
+			</div>-->
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide">
+			        	<img src="image/banner0.png" />
+			        	<div class="lxs_til">
+							<span>接地社：豆芽旅行社</span>
+							<span>旅游团号：3585</span>
+						</div>
+			        </div>
+			        <div class="swiper-slide">
+			       	 	<img src="image/banner0.png" />
+			       		<div class="lxs_til">
+							<span>接地社：豆芽旅行社</span>
+							<span>旅游团号：3585</span>
+						</div>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="image/banner0.png" />
+			        	<div class="lxs_til">
+							<span>接地社：豆芽旅行社</span>
+							<span>旅游团号：3585</span>
+						</div>
+			        </div>
+			    </div>
 			</div>
 		</div>
 
@@ -992,6 +1018,14 @@
 		</script>
 
 		<script src="js/yh.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var mySwiper = new Swiper('.swiper-container', {
+			autoplay: 3000,
+			speed:1000,
+			loop:true
+		})
+	</script>
 	</body>
 
 </html>

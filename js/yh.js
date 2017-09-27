@@ -41,6 +41,45 @@ $(function(){
 	
 	
 	
+//	<!--		美国东海岸-->
+	$(".dhacli li").click(function(){
+		$(".dhacli li").removeClass("active");
+		$(this).addClass("active");
+	});
+	
+	$(".xhacli li").click(function(){
+		$(".xhacli li").removeClass("active");
+		$(this).addClass("active");
+	});
+	
+	
+	$(".jnd li").click(function(){
+		$(".jnd li").removeClass("active");
+		$(this).addClass("active");
+	});
+	
+	$(".xwy li").click(function(){
+		$(".xwy li").removeClass("active");
+		$(this).addClass("active");
+	});
+	
+	
+	$(".calendar-week .item").click(function(){
+		$(".calendar-week .item").removeClass("active");
+		$(this).addClass("active");
+	});
+	
+	console.log(parseFloat($(".calendar-date .item").css("width")))
+	console.log(parseInt($("body").css("width")));
+	console.log(parseInt($(".calendar").css("width")));
+	var a = parseFloat($(".calendar-date .item").css("width"))/100;
+	console.log(a)
+	var b = parseInt($("body").css("width"));
+	console.log(b)
+	var c = parseInt($(".calendar").css("width"))/100 * b * a -2 + 'px';
+	console.log(c)
+	$(".calendar-date .item").css("height",c);
+	$(".calendar-date .item").css("lineHeight",c);
 });
 
 

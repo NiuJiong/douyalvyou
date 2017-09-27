@@ -65,8 +65,11 @@ body {
 
 .lxs_box {
 	position: relative;
+	padding: 0 0.5rem;
 }
-
+.lxs_box img{
+	display: block;
+}
 .lxs_til {
 	position: absolute;
 	bottom: 0.2rem;
@@ -351,8 +354,8 @@ body {
 	border: 2px solid #e5e5e5;
 	padding-left: 0.4rem;
 	font-size: 0.67rem;
-	color: #84ab28;
-	font-weight: bold;
+	color: #DDDDDD;
+/*	font-weight: bold;*/
 }
 .shuruk .spantwo input{
 	width: 3.6rem;
@@ -367,7 +370,7 @@ body {
 	width: 4.1rem;
 	text-align: center;
 	display: inline-block;
-	font-weight: bold;
+/*	font-weight: bold;*/
 }
 
 .lable_yd_one span {
@@ -503,7 +506,7 @@ body {
 	width: 4.5rem;
 	text-align: center;
 	display: inline-block;
-	font-weight: bold;
+/*	font-weight: bold;*/
 	color: #84ab28
 }
 
@@ -534,7 +537,7 @@ body {
 	display: inline-block;
 	padding-left: 3.14rem;
 	color: #ff9f41;
-	font-weight: bold;
+/*	font-weight: bold;*/
 	text-align: left;
 }
 
@@ -968,8 +971,11 @@ body {
 	font-size: 0.53rem;
 	padding-bottom: 0.67rem;
 	text-align: center;
+	
 }
-
+.yd_box ul li p{
+	color: #84ab28;
+}
 .yd_box ul {
 	border-bottom: 2px solid #84ab28;
 	margin-bottom: 6.8rem;
@@ -982,19 +988,21 @@ body {
 	position: absolute;
 	text-align: left;
 	border: 1px solid #85aa29;
-	bottom: -5.3rem;
+/*	bottom: -5.3rem;*/
+top: 2rem;
 	width: 80%;
-	left: 4%
+	left: 4%;
+	color: #666666;
 }
 @-moz-document url-prefix(){
 	.yd_txt {
 		padding: 0.2rem;
 		font-size: 0.428rem;
-		height: 3rem;
+		height: 2.5rem;
 		position: absolute;
 		text-align: left;
 		border: 1px solid #85aa29;
-		bottom: -5.3rem;
+/*		bottom: -5.3rem;*/
 		width: 80%;
 		left: 4%
 	}
@@ -1146,23 +1154,31 @@ body {
 	background: #fff;
 	z-index: 1000;
 	position: fixed;
-	top: 2rem;
-	left: 3%;
+	top: 50%!important;
+	left: 1rem!important;
+	right: 1rem!important;
+	bottom: ;
+	transform: translateY(-50%);
 	border-radius: 3px;
 	overflow: hidden;
 	display: none;
+	z-index: 99999;
+	width: auto;
 }
 
 .pl_tab h2 {
 	text-align: center;
 	font-size: 0.67rem;
 	margin-top: 0.83rem;
-	margin-bottom: 1.92rem;
+	margin-bottom: 0.8rem;
+	line-height: 1.8rem;
+	color: #999999;
 }
 
 .pl_tab h2 img {
 	width: 1.42rem;
 	margin-right: 0.3rem;
+	margin-bottom: -0.5rem;
 }
 
 .pl_tab_box {
@@ -1174,16 +1190,17 @@ body {
 	width: 100%;
 	border: none;
 	height: 0.9rem;
-	border-bottom: 2px solid #c6c6c6;
+	border-bottom: 1px solid #E0E0E0;
 /*	padding-left: 4%;*/
 	font-size: 0.67rem;
 	color: #bbbbbb;
 	margin-bottom: 0.49rem;
+	color: #c6c6c6;
 }
 
 .pl_tab_box textarea {
-	height: 12.43rem;
-	border: 2px solid #c6c6c6;
+	height: 10rem;
+	border: 1px solid #E0E0E0;
 	width: 98%;
 	border-radius: 3px;
 	font-size: 0.67rem;
@@ -1262,7 +1279,7 @@ body {
 }
 
 .pf_star {
-	margin-bottom: 1.64rem;
+	margin-bottom: 1rem;
 }
 
 .pf_btn {
@@ -1404,4 +1421,8 @@ body {
     display: inline-block;
     padding: 0 0.5rem;
     margin-left: 0.5rem;
+}
+
+#fj_num{
+	color: #86AC2D;
 }
